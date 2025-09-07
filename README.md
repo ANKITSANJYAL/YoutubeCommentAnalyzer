@@ -159,7 +159,6 @@ Response:
 
 ### Project Structure
 ```
-youtube-comment-analyzer/
 ├── backend/
 │   ├── main.py              # FastAPI application entry point
 │   ├── comment_analyzer.py  # Core analysis logic and ML models
@@ -284,7 +283,6 @@ Modify `backend/main.py` to change:
 ### Project Structure
 
 ```
-youtube-comment-analyzer/
 ├── backend/
 │   ├── main.py              # FastAPI server
 │   ├── comment_analyzer.py  # AI analysis logic
@@ -292,7 +290,7 @@ youtube-comment-analyzer/
 ├── chrome-extension/
 │   ├── manifest.json        # Extension configuration
 │   ├── background.js        # Service worker
-│   ├── content.js          # YouTube page integration
+│   ├── content_simple.js    # YouTube page integration
 │   ├── popup.html          # Extension popup UI
 │   ├── popup.js            # Popup logic
 │   ├── dashboard.css       # Dashboard styling
